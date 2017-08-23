@@ -1,0 +1,22 @@
+09:59:12.138 INFO - Selenium build info: version: '3.5.0', revision: '8def36e068'
+09:59:12.140 INFO - Launching a standalone Selenium Server
+2017-08-23 09:59:12.184:INFO::main: Logging initialized @454ms to org.seleniumhq.jetty9.util.log.StdErrLog
+09:59:12.287 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+09:59:12.333 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+09:59:12.334 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+09:59:12.388 INFO - Using the passthrough mode handler
+2017-08-23 09:59:12.452:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-08-23 09:59:12.499:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@2286778{/,null,STARTING} has uncovered http methods for path: /
+2017-08-23 09:59:12.508:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@2286778{/,null,AVAILABLE}
+2017-08-23 09:59:12.555:INFO:osjs.AbstractConnector:main: Started ServerConnector@5a3f4e7{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-08-23 09:59:12.557:INFO:osjs.Server:main: Started @827ms
+09:59:12.557 INFO - Selenium Server is up and running
+2017-08-23 09:59:13.901:INFO:osjshC.ROOT:qtp942731712-11: org.openqa.selenium.remote.server.WebDriverServlet-4678c730: Initialising WebDriverServlet
+09:59:13.999 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+09:59:14.001 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@5d5752f8
+09:59:14.009 INFO - /session: Executing POST on /session (handler: BeginSession)
+09:59:14.046 INFO - Capabilities are: Capabilities {acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+09:59:14.047 INFO - Capabilities {acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+09:59:14.048 INFO - Capabilities {acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
